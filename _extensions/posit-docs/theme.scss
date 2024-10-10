@@ -85,23 +85,20 @@ body {
 
 .navbar-title {
   font-family: $font-family-sans-serif;
-  font-size: $font-size-base;
+  font-size: 24px;
   font-weight: 500;
 }
 
 /* Style for the version included in the website title */
 .navbar-title small {
-  font-size: 14px;
+  font-size: 20px;
   display: block;
   padding-left: 1em;
 }
 
 .nav-link {
-  font-family: $font-family-monospace;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
-  font-size: 14px !important;
-  font-weight: 500 !important;
+  font-size: 20px !important;
   color: $posit-gray !important;
 }
 
@@ -109,6 +106,17 @@ body {
 .navbar-nav .nav-link.show {
   color: #000000 !important;
   font-weight: 700 !important;
+}
+
+/* nav - fake navigation tabs*/
+.navbar>.container-fluid {
+  margin-top: -60px !important;
+}
+
+.navbar .navbar-collapse {
+  padding-top: 150px !important;
+  margin-left: -550px !important;
+  margin-right: -70px !important;
 }
 
 /* Footer */

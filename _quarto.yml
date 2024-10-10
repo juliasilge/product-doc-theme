@@ -5,7 +5,7 @@ project:
     - "!changelog.md"
   
 website:
-  title: 'Posit Product Documentation <small>Version {{< env PRODUCT_VERSION >}}</small>'
+  title: 'Posit Product Documentation - Version {{< env PRODUCT_VERSION >}}'
   page-navigation: true
   navbar:
     left:
